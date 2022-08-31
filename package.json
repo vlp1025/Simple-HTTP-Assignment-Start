@@ -1,0 +1,32 @@
+{
+  "name": "assignment-1",
+  "version": "1.0.0",
+  "description": "First assignment simple HTTP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlp1025/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Valentin Parafioriti",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/vlp1025/Simple-HTTP-Assignment-Start/issues"
+  },
+  
+  "scripts": {
+    "start":"node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+
+  "homepage": "https://github.com/vlp1025/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  }
+ 
+}
