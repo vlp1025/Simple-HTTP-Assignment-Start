@@ -2,7 +2,7 @@
   "name": "assignment-1",
   "version": "1.0.0",
   "description": "First assignment simple HTTP",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start":"node ./src/server.js",
     "pretest": "eslint ./src --fix",
